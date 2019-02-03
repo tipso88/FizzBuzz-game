@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+		int number;
+		
+		System.out.println("Add number: ");
+		Scanner input = new Scanner(System.in);
+		number = input.next();
+		
+	}
+
+}

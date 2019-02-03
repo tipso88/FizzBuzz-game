@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+//input numbers
+//take numbers --> separate
+//check every number
+//create solution
+//print solutions
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+		int number;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Input number: ");
+		number = input.nextInt();
+		System.out.println("Your FizzBuzzed input: ");
+		
+		if (number % 15 == 0) {
+			System.out.println("FizzBuzz");
+		} else if ( number % 5 == 0) {
+			
+		}
+		
+	}
+	
+	
+
+}

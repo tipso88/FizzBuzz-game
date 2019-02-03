@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+//input numbers
+//take numbers --> separate
+//check every number
+//create solution
+//print solutions
+// if nothing added /errors
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Input number(s): ");
+
+		
+//		if (number % 15 == 0) {
+//			System.out.println("FizzBuzz");
+//		} else if ( number % 5 == 0) {
+//			
+//		}
+		
+		while(scanner.hasNext())
+	    {
+	        System.out.println(scanner.nextInt());
+	    }
+		int number = input.nextInt();
+		System.out.println("Your FizzBuzzed input: ");
+		System.out.println(number);
+	}
+	
+	
+
+}

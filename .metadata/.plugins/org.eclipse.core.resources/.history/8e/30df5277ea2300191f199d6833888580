@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+//input numbers
+//take numbers --> separate
+//check every number
+//create solution
+//print solutions
+// if nothing added /errors
+
+public class FizzBuzz {
+	Scanner input = new Scanner(System.in);
+	
+	public FizzBuzz(){
+		int [] lampotilat = new int[100];
+		askNumbers();
+		naytaLampotilat(lampotilat, lkm);		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+		System.out.print("Input number(s): ");
+		while(input.hasNext()){
+			int n=input.nextInt();
+			if ((n%3==0)&&(n%5==0)) {
+				System.out.println("FizzBuzz");
+			} else if ( n % 3 == 0) {
+				System.out.println("Fizz");
+			} else if ( n % 5 == 0) {
+				System.out.println("Buzz");
+			} else {
+				System.out.println(n);
+			}
+		}
+		
+		
+//		while(number.hasNext()){
+////	        System.out.println(number.nextInt());
+//	        if ((i%3==0)&&(i%5==0))) {
+//				System.out.println("FizzBuzz");
+//			} else if ( number % 5 == 0) {
+//				System.out.println("FizzBuzz");
+//			} else if ( number % 3 == 0) {
+//				System.out.println("Buzz");
+//			} else {
+//				System.out.println(number);
+//			}
+//	    }
+//		
+		
+		
+	
+//		int number = input.nextInt();
+//		System.out.println("Your FizzBuzzed input: ");
+//		System.out.println(number);
+	}
+	
+	
+
+}
